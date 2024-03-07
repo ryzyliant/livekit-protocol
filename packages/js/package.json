@@ -1,7 +1,12 @@
 {
-  "name": "@livekit/protocol",
+  "name": "@ryzyliant/livekit-protocol",
   "version": "13.0.0",
   "description": "",
+  "repository": "https://github.com/ryzyliant/orbitdb.git",
+  "publishConfig": {
+    "@ryzyliant:registry": "https://npm.pkg.github.com",
+    "repository": "https://github.com/ryzyliant/livekit-protocol.git"
+  },
   "type": "module",
   "main": "src/index.js",
   "types": "src/index.d.ts",
