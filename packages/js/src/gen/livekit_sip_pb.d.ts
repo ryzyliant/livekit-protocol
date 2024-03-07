@@ -47,13 +47,19 @@ export declare class CreateSIPTrunkRequest extends Message<CreateSIPTrunkRequest
   outboundNumber: string;
 
   /**
+   * @generated from field: repeated string inbound_numbers_regex = 4 [deprecated = true];
+   * @deprecated
+   */
+  inboundNumbersRegex: string[];
+
+  /**
    * Accepted `To` values. This Trunk will only accept a call made to
    * these numbers. This allows you to have distinct Trunks for different phone
    * numbers at the same provider.
    *
-   * @generated from field: repeated string inbound_numbers_regex = 4;
+   * @generated from field: repeated string inbound_numbers = 9;
    */
-  inboundNumbersRegex: string[];
+  inboundNumbers: string[];
 
   /**
    * Username and password used to authenticate inbound and outbound SIP invites
@@ -125,13 +131,19 @@ export declare class SIPTrunkInfo extends Message<SIPTrunkInfo> {
   outboundNumber: string;
 
   /**
+   * @generated from field: repeated string inbound_numbers_regex = 5 [deprecated = true];
+   * @deprecated
+   */
+  inboundNumbersRegex: string[];
+
+  /**
    * Accepted `To` values. This Trunk will only accept a call made to
    * these numbers. This allows you to have distinct Trunks for different phone
    * numbers at the same provider.
    *
-   * @generated from field: repeated string inbound_numbers_regex = 5;
+   * @generated from field: repeated string inbound_numbers = 10;
    */
-  inboundNumbersRegex: string[];
+  inboundNumbers: string[];
 
   /**
    * Username and password used to authenticate inbound and outbound SIP invites

@@ -330,6 +330,11 @@ export declare class Room extends Message<Room> {
   emptyTimeout: number;
 
   /**
+   * @generated from field: uint32 departure_timeout = 14;
+   */
+  departureTimeout: number;
+
+  /**
    * @generated from field: uint32 max_participants = 4;
    */
   maxParticipants: number;

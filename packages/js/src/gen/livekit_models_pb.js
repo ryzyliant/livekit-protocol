@@ -174,6 +174,7 @@ export const Room = proto3.makeMessageType(
     { no: 1, name: "sid", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 2, name: "name", kind: "scalar", T: 9 /* ScalarType.STRING */ },
     { no: 3, name: "empty_timeout", kind: "scalar", T: 13 /* ScalarType.UINT32 */ },
+    { no: 14, name: "departure_timeout", kind: "scalar", T: 13 /* ScalarType.UINT32 */ },
     { no: 4, name: "max_participants", kind: "scalar", T: 13 /* ScalarType.UINT32 */ },
     { no: 5, name: "creation_time", kind: "scalar", T: 3 /* ScalarType.INT64 */ },
     { no: 6, name: "turn_password", kind: "scalar", T: 9 /* ScalarType.STRING */ },
